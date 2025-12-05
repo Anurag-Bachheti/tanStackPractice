@@ -1,0 +1,34 @@
+/* MainLayout.css */
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  gap: 30px;
+  padding: 12px 20px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Navbar Links */
+.navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Active Page Link */
+.navbar a.active {
+  color: royalblue;
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+  color: darkblue;
+}
+
+/* Page content spacing */
+.page-content {
+  padding: 20px;
+}
